@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/Person">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title itemprop="name">Muhammad Saqib - E-commerce Expert</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+         body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            background: white;
+            padding: 30px;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            display: flex;
+        }
+        .sidebar {
+            width: 30%;
+            background: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px 0 0 10px;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            border: 3px solid white;
+        }
+        .main-content {
+            width: 70%;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 5px;
+        }
+        h2 {
+            color: #007bff;
+            margin-top: 20px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        p, li {
+            color: #555;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li::before {
+            content: "\2022";
+            color: #007bff;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="pic.jpeg" alt="Muhammad Saqib" class="profile-img" itemprop="image">
+            <h1 itemprop="name">Muhammad Saqib</h1>
+            <p><span itemprop="jobTitle">E-commerce Expert</span> | <span>Digital Marketer</span></p>
+
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:muhammadsaqi2468@gmail.com" itemprop="email">muhammadsaqi2468@gmail.com</a></p>
+            <p>Phone: <span itemprop="telephone">+923077220864</span></p>
+            <p><a href="https://github.com/yourusername" itemprop="url">GitHub Profile</a></p>
+        </div>
+        <div class="main-content">
+            <section class="education" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
+                <h2>Education</h2>
+                <p>
+                    <strong itemprop="educationalLevel">Bachelor's in Computer Science</strong>
+                    <span itemprop="recognizedBy">University of Sargodha</span> 
+                    (<span itemprop="validThrough">2025</span>)
+                </p>
+            </section>
+
+            <section class="experience" itemscope itemtype="https://schema.org/Organization">
+                <h2>Work Experience</h2>
+                <p>
+                    <strong itemprop="name">E-commerce Specialist</strong> - 
+                    <span itemprop="name">Self-Employed</span> 
+                    (<time itemprop="foundingDate" datetime="2022">2022</time> - <span>Present</span>)
+                </p>
+                <ul>
+                    <li itemprop="description">Managed and optimized multiple TikTok shops</li>
+                    <li itemprop="description">Handled digital marketing campaigns for e-commerce businesses</li>
+                    <li itemprop="description">Developed strategies to boost online sales</li>
+                </ul>
+            </section>
+
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li itemprop="skills">TikTok Shop Management</li>
+                    <li itemprop="skills">Digital Marketing</li>
+                    <li itemprop="skills">HTML & CSS</li>
+                    <li itemprop="skills">JavaScript</li>
+                    <li itemprop="skills">SEO & Analytics</li>
+                </ul>
+            </section>
+
+            <section class="qualities">
+                <h2>Personal Qualities</h2>
+                <ul>
+                    <li>Creative Problem Solver</li>
+                    <li>Goal-Oriented</li>
+                    <li>Strong Analytical Skills</li>
+                </ul>
+            </section>
+
+            <section class="hobbies">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li itemprop="knowsAbout">Reading about E-commerce Trends</li>
+                    <li itemprop="knowsAbout">Networking with Entrepreneurs</li>
+                    <li itemprop="knowsAbout">Fitness & Outdoor Activities</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
